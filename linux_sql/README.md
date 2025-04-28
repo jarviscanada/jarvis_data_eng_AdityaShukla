@@ -1,8 +1,9 @@
 # Linux Cluster Monitoring Agent
-___
 
+---
 ## Introduction
-___
+
+---
 The **Linux Cluster Monitoring Agent** project implements a Minimum Viable Product (MVP) that helps the Linux Cluster Administration (LCA) team at **Jarvis** manage a Linux Cluster.  
 The LCA team requires the hardware specifications and the real-time resource usage of each node/monitor in the cluster.  
 This project helps the LCA team meet business needs by:
@@ -11,11 +12,11 @@ This project helps the LCA team meet business needs by:
 - Using **git** for version control.
 
 ## Quick Start
-___
 
+---
 ### 1. Start a PSQL Instance Using `psql_docker.sh` Shell Script
-___
 
+---
 **1.1 Command to create a Docker container instance if it doesn't exist:**
 ```bash
 bash -x ./linux_sql/scripts/psql_docker.sh create postgres password
@@ -32,8 +33,8 @@ bash -x ./linux_sql/scripts/psql_docker.sh stop
 ```
 
 ### 2. Create Tables Using `ddl.sql` Script
-___
 
+---
 **2.1 Command to execute the `ddl.sql` script:**
 ```bash
 psql -h localhost -U postgres -d host_agent -f linux_sql/sql/ddl.sql
@@ -48,16 +49,16 @@ bash -x ./linux_sql/scripts/host_info.sh localhost 5432 host_agent postgres pass
 ```
 
 ### 4. Insert Hardware Usage Data into the Host Agent Database Using `host_usage.sh` Script
-___
 
+---
 **4.1 Command to execute the `host_usage.sh` shell script:**
 ```bash
 bash -x ./linux_sql/scripts/host_usage.sh localhost 5432 host_usage postgres password
 ```
 
 ### 5. Crontab Setup
-___
 
+---
 **5.1 Obtain the complete path of the host_usage.sh script:**
 ```bash
 pwd
@@ -74,8 +75,8 @@ crontab -e
 ```
 
 ## Implementation
-___
 
+---
 The **Linux Cluster Monitoring Agent** project has been implemented by utilizing **bash scripts** and a **PSQL database**.
 - **Bash scripting** is used to create a Docker container to containerize the PSQL instance.
 - A **Docker volume** was created and linked to the container to persist data even if the container is stopped or deleted.
@@ -84,16 +85,15 @@ The **Linux Cluster Monitoring Agent** project has been implemented by utilizing
 - **Crontab** is used to execute `host_usage.sh` every minute to store memory usage data into the `host_usage` table.
 
 ## Architecture
-___
 
+---
 The architecture of this project can be seen in the image below:
 > _Linux Cluster Monitoring Agent Architecture_
 
 ## Scripts
-___
 
+---
 ### `psql_docker.sh`
-___
 - Allows users to **Create**, **Start**, or **Stop** a Docker instance for connecting to a PSQL database.
 - Expects **three** command line arguments:
     - $1: `[Create | Start | Stop]` - Action to perform.
@@ -128,13 +128,14 @@ ___
     - Host failures based on crontab entries in a 5-minute interval.
 
 ### Crontab
-___
+
+---
 - Used to **automatically execute** the `host_usage.sh` script every minute.
 - The `* * * * *` syntax ensures execution **every minute**.
 
 ## Database Modeling
-___
 
+---
 ### Schema of `host_info` table
 | Column Name       | Data Type | Constraint              | Description                      |
 |-------------------|-----------|-------------------------|----------------------------------|
@@ -160,8 +161,8 @@ ___
 | disk_available    | INT4      | NOT NULL                        | Available disk space (MB)                     |
 
 ## Test
-___
 
+---
 - `psql_docker.sh` tested with:
     - Valid inputs (create, start, stop).
     - Invalid parameters and incorrect arguments to ensure error handling.
@@ -172,8 +173,8 @@ ___
     - Checking if new rows are inserted every minute into the `host_usage` table.
 
 ## Deployment
-___
 
+---
 This project has been deployed using:
 
 - **GitHub**: Source code management.
@@ -181,8 +182,8 @@ This project has been deployed using:
 - **Crontab**: Automating `host_usage.sh` script execution every minute.
 
 ## Improvements
-___
 
+---
 - Periodically clean up `host_usage` logs to reduce storage.
 - Perform **weekly analysis** of system health and notify users of anomalies.
 - Analyze which nodes are the busiest in terms of **memory usage** using SQL scripts.
