@@ -89,6 +89,7 @@ The **Linux Cluster Monitoring Agent** project has been implemented by utilizing
 ---
 The architecture of this project can be seen in the image below:
 > _Linux Cluster Monitoring Agent Architecture_
+![architecture.png](/home/rocky/Downloads/architecture.png)
 
 ## Scripts
 
@@ -128,8 +129,6 @@ The architecture of this project can be seen in the image below:
     - Host failures based on crontab entries in a 5-minute interval.
 
 ### Crontab
-
----
 - Used to **automatically execute** the `host_usage.sh` script every minute.
 - The `* * * * *` syntax ensures execution **every minute**.
 
