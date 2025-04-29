@@ -4,54 +4,55 @@
 ## Introduction
 
 ---
-The **Linux Cluster Monitoring Agent** project implements a Minimum Viable Product (MVP) that helps the Linux Cluster Administration (LCA) team at **Jarvis** manage a Linux Cluster.  
-The LCA team requires the hardware specifications and the real-time resource usage of each node/monitor in the cluster.  
-This project helps the LCA team meet business needs by:
-- Creating a **PostgreSQL** database instance inside a **Docker** container to store hardware specifications and resource usage information of all nodes.
-- Using a **bash agent** to periodically collect server usage information and store it in the **psql** database.
-- Using **git** for version control.
+I developed the **Linux Cluster Monitoring Agent** as a Minimum Viable Product (MVP) to support the Linux Cluster Administration (LCA) team at Jarvis in managing and monitoring our Linux clusters more efficiently.
+The LCA team needed a way to track both hardware specifications and real-time resource usage across all cluster nodes.
+
+This project addresses those needs by:
+- Setting up a PostgreSQL database inside a Docker container to collect and store hardware details and resource utilization metrics.
+- Building a bash script agent that automatically gathers server resource data at regular intervals and logs it into the PostgreSQL database.
+- Using Git for version control to track changes and maintain project integrity.
 
 ## Quick Start
 
 ---
-### 1. Start a PSQL Instance Using `psql_docker.sh` Shell Script
+### 1. Launch the PostgreSQL Database with `psql_docker.sh`
 
 ---
-**1.1 Command to create a Docker container instance if it doesn't exist:**
+1.1 To create a new Docker container with this command (if it doesn't already exist)
 ```bash
 bash -x ./linux_sql/scripts/psql_docker.sh create postgres password
 ```
 
-**1.2 Command to start the psql instance inside the Docker container:**
+1.2 Start the psql instance inside the Docker container with the command:
 ```bash
 bash -x ./linux_sql/scripts/psql_docker.sh start
 ```
 
-**1.3 Command to stop the psql instance inside the Docker container:**
+1.3 Stop the psql instance inside the Docker container with the Command:
 ```bash
 bash -x ./linux_sql/scripts/psql_docker.sh stop
 ```
 
-### 2. Create Tables Using `ddl.sql` Script
+### 2. Create `host_agent` Database Using `ddl.sql` Script
 
 ---
-**2.1 Command to execute the `ddl.sql` script:**
+2.1 Create 'host_agent' database with `ddl.sql` containing `host_info` and `host_usage` table:
 ```bash
 psql -h localhost -U postgres -d host_agent -f linux_sql/sql/ddl.sql
 ```
 
-### 3. Insert Hardware Specifications Data into the Host Agent Database Using `host_info.sh` Script
-___
+### 3. Insert Hardware Specifications Data into the `host_agent` Database Using `host_info.sh` Script
 
-**3.1 Command to execute the host_info.sh shell script:**
+---
+3.1 Command to execute the host_info.sh shell script:
 ```bash
 bash -x ./linux_sql/scripts/host_info.sh localhost 5432 host_agent postgres password
 ```
 
-### 4. Insert Hardware Usage Data into the Host Agent Database Using `host_usage.sh` Script
+### 4. Insert Hardware Usage Data into the `host_agent` Database Using `host_usage.sh` Script
 
 ---
-**4.1 Command to execute the `host_usage.sh` shell script:**
+4.1 Command to execute the `host_usage.sh` shell script:
 ```bash
 bash -x ./linux_sql/scripts/host_usage.sh localhost 5432 host_usage postgres password
 ```
@@ -59,17 +60,17 @@ bash -x ./linux_sql/scripts/host_usage.sh localhost 5432 host_usage postgres pas
 ### 5. Crontab Setup
 
 ---
-**5.1 Obtain the complete path of the host_usage.sh script:**
+5.1 Obtain the complete path of the host_usage.sh script:
 ```bash
 pwd
 ```
 
-**5.2 Edit the crontab jobs on your Linux system:**
+5.2 Edit the crontab jobs on your Linux system:
 ```bash
 crontab -e
 ```
 
-**5.3 Insert the following command to execute the `host_usage.sh` file every minute:**
+5.3 Insert the following command to execute the `host_usage.sh` file every minute:
 ```bash
 * * * * * bash /home/centos/dev/jrvs/bootcamp/linux_sql/host_agent/scripts/host_usage.sh localhost 5432 host_agent postgres password > /tmp/host_usage.log
 ```
@@ -77,19 +78,19 @@ crontab -e
 ## Implementation
 
 ---
-The **Linux Cluster Monitoring Agent** project has been implemented by utilizing **bash scripts** and a **PSQL database**.
-- **Bash scripting** is used to create a Docker container to containerize the PSQL instance.
-- A **Docker volume** was created and linked to the container to persist data even if the container is stopped or deleted.
-- The `ddl.sql` file connects to the `host_agent` database and creates `host_info` and `host_usage` tables to store node usage information.
-- `host_info.sh` and `host_usage.sh` bash scripts are created to store hardware specifications and memory usage information.
-- **Crontab** is used to execute `host_usage.sh` every minute to store memory usage data into the `host_usage` table.
+I built the **Linux Cluster Monitoring Agent** using bash scripting alongside a **PostgreSQL** database running inside a Docker container:
+- The `psql_docker.sh` script handles **Docker Container** management for the database.
+- I attached a **Docker Volume** to the container to make sure data persists even if the container stops or is removed.
+- The `ddl.sql` script sets up two tables: host_info for hardware specifications and `host_usage` for real-time performance metrics.
+- `host_info.sh` captures and inserts hardware details, while `host_usage.sh` gathers live server resource stats.
+- I configured crontab to run `host_usage.sh` every minute to ensure resource usage data is continuously logged.
 
 ## Architecture
 
 ---
 The architecture of this project can be seen in the image below:
 > _Linux Cluster Monitoring Agent Architecture_
-![architecture.png](/home/rocky/Downloads/architecture.png)
+![](home/rocky/Downloads/architecture.png)
 
 ## Scripts
 
@@ -97,19 +98,19 @@ The architecture of this project can be seen in the image below:
 ### `psql_docker.sh`
 - Allows users to **Create**, **Start**, or **Stop** a Docker instance for connecting to a PSQL database.
 - Expects **three** command line arguments:
-    - $1: `[Create | Start | Stop]` - Action to perform.
-    - $2: `PostgreSQL_Username`
-    - $3: `PostgreSQL_Password`
+    - 1: `[Create | Start | Stop]` - Action to perform.
+    - 2: `PostgreSQL_Username`
+    - 3: `PostgreSQL_Password`
 
 ### `host_info.sh`
 
 - Collects system hardware specifications and stores them in the `host_info` table.
 - Expects **five** command line arguments:
-    - $1: Hostname
-    - $2: Port number
-    - $3: PSQL database name
-    - $4: PSQL username
-    - $5: PSQL password
+    - 1: Hostname
+    - 2: Port number
+    - 3: PSQL database name
+    - 4: PSQL username
+    - 5: PSQL password
 - **Run once**, as hardware specifications are static.
 
 ### `host_usage.sh`
@@ -129,8 +130,8 @@ The architecture of this project can be seen in the image below:
     - Host failures based on crontab entries in a 5-minute interval.
 
 ### Crontab
-- Used to **automatically execute** the `host_usage.sh` script every minute.
-- The `* * * * *` syntax ensures execution **every minute**.
+- I used cronta to **automatically execute** the `host_usage.sh` script every minute.
+- The (`* * * * *`) syntax ensures execution **every minute**.
 
 ## Database Modeling
 
