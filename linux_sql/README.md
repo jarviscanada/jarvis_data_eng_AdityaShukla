@@ -72,7 +72,7 @@ crontab -e
 
 5.3 Insert the following command to execute the `host_usage.sh` file every minute:
 ```bash
-* * * * * bash /home/centos/dev/jrvs/bootcamp/linux_sql/host_agent/scripts/host_usage.sh localhost 5432 host_agent postgres password > /tmp/host_usage.log
+* * * * * bash /home/rocky/dev/jarvis_data_eng_AdityaShukla/linux_sql/host_agent/scripts/host_usage.sh localhost 5432 host_agent postgres password > /tmp/host_usage.log
 ```
 
 ## Implementation
@@ -90,7 +90,7 @@ I built the **Linux Cluster Monitoring Agent** using bash scripting alongside a 
 ---
 The architecture of this project can be seen in the image below:
 > _Linux Cluster Monitoring Agent Architecture_
-![](home/rocky/Downloads/architecture.png)
+![](assets//architecture.png)
 
 ## Scripts
 
