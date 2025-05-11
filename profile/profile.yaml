@@ -11,7 +11,7 @@ summary: Results-driven Business Analyst & Customer Support Professional with 2.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
 skills:
   # At least 5 skills
-  Business Skills:
+  proficient:
     - Requirement elicitation
     - Business Process Analysis
     - Communication
@@ -19,23 +19,29 @@ skills:
     - Stakeholder Management
     - Agile/Scrum
     - Documentation
+
   # At least 5 skills
-  Technical Skills:
+  competent:
     - SQL
     - Power BI
     - Microsoft Excel
     - Microsoft Visio
     - Confluence
     - Jira
-    - ServiceNow
     - Git
     - Salesforce
     - Figma
-    - Linux
-    - Python
-  # At least 5 skills
 
-# List of Jarvis projects
+  # At least 5 skills
+  familiar:
+    - Python
+    - Linux
+    - ServiceNow
+    - C++
+    - JAVA
+
+
+ #List of Jarvis projects
 jarvis_projects:
   - name: "Cluster Monitor"
     git_url: "/linux_sql"
@@ -63,7 +69,7 @@ highlighted_projects:
     description: Supported the launch of a new IIBA chapter in GTA by analyzing business processes, creating requirement documents, and delivering data insights using SQL and Power BI, which improved operations by 30%. Facilitated stakeholder workshops and assisted in technology implementations to ensure alignment with business goals and compliance standard
 
   - name: "Smart Buss App"
-  - description: Built an IoT-based Smart Bus app with NUS and HP to track real-time bus locations, monitor passenger counts using RFID, and optimize routes with cloud-based analytics, improving commuter experience and transport efficiency.
+    description: Built an IoT-based Smart Bus app with NUS and HP to track real-time bus locations, monitor passenger counts using RFID, and optimize routes with cloud-based analytics, improving commuter experience and transport efficiency.
 
 
 #List of professional experience
@@ -82,11 +88,6 @@ professional_experience:
     duration: "September 2024  March 2025"   
     description: "Supported the Rogers door-to-door business development segment by modeling operational processes and optimizing sales workflows. Analyzed KPIs to target new sales opportunities and improve customer retention through strategic engagement. Developed and maintained comprehensive documentation for sales records, ensuring accuracy, compliance, and streamlined reporting. Audited sales calls, resolved client escalations, and collaborated with Sales Managers to refine processes and address customer issues effectively. Utilized Salesforce CRM for lead tracking and ensured timely documentation of sales orders. Provided market insights, identified new business opportunities, and supported the execution of sales strategies for Rogers programs."
 
-  - title: "Business Analyst"
-    company: "MozWebMedia"
-    duration: "April 2021  September 2022"
-    description: "Streamlined administrative tasks and enhanced client communication to improve service delivery and operational efficiency. Gathered and documented requirements for optimizing client engagement and office operations, analyzing the feasibility of new tools and processes. Collaborated with cross-functional teams to ensure the development and implementation of systems aligned with business objectives. Created and maintained project documentation, clearly outlining functional and non-functional business requirements. Analyzed internal processes and validated new systems through testing to ensure they met business needs.
-
 #List of edcuation
 education: 
   - school_name: "George Brown College"
@@ -98,7 +99,7 @@ education:
       - "Deals Honour List:"
       - "GPA: 3.7/4.0"
 
- - school_name: "George Brown College"
+  - school_name: "George Brown College"
     duration: "2022-2023"
     degree: "Postgrad Diploma in Information System Business Analysis"
     department: "Computer Technology"

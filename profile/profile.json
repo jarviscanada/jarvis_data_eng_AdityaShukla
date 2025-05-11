@@ -2,34 +2,44 @@
   "education": [
     {
       "awards_achievements": [
-        "Scholarship",
-        "Dean's List (2015, 2016): Ut enim ad minim veniam",
-        "GPA: 3.8/4.0"
+        "Deals Honour List:",
+        "GPA: 3.7/4.0"
       ],
-      "degree": "Bachelor of Applied Sciences",
-      "department": "Electrical and Computer Engineering",
-      "duration": "2012-2016",
-      "school_name": "XYZ university"
+      "degree": "Postgrad Diploma in Health Informatics",
+      "department": "Computer Technology",
+      "duration": "2023-2024",
+      "school_name": "George Brown College"
     },
     {
-      "awards_achievements": null,
-      "degree": "Master of Engineering",
+      "awards_achievements": [
+        "College Process Improvement Research",
+        "GPA: 3.49/4.0"
+      ],
+      "degree": "Postgrad Diploma in Information System Business Analysis",
+      "department": "Computer Technology",
+      "duration": "2022-2023",
+      "school_name": "George Brown College"
+    },
+    {
+      "awards_achievements": [
+        "Nonprofit Business Initiative to Support Locally Produced Natural Product",
+        "Cultural Event Organization Team"
+      ],
+      "degree": "Bachelor of Technology in Information Technology",
       "department": "Electrical and Computer Engineering",
-      "duration": "2016-2018",
-      "school_name": "XYZ university"
+      "duration": "2017-2021",
+      "school_name": "Manipal University Jaipur"
     }
   ],
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_AdityaShukla/tree/develop",
   "highlighted_projects": [
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
-      "git_url": "https://github.com/jarviscanada/jarvis_profile_builder",
-      "name": "Web app for resturant"
+      "description": "Supported the launch of a new IIBA chapter in GTA by analyzing business processes, creating requirement documents, and delivering data insights using SQL and Power BI, which improved operations by 30%. Facilitated stakeholder workshops and assisted in technology implementations to ensure alignment with business goals and compliance standard",
+      "name": "IIBA Toronto GTA Chapter"
     },
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
-      "git_url": null,
-      "name": "Machine Learning"
+      "description": "Built an IoT-based Smart Bus app with NUS and HP to track real-time bus locations, monitor passenger counts using RFID, and optimize routes with cloud-based analytics, improving commuter experience and transport efficiency.",
+      "name": "Smart Buss App"
     }
   ],
   "jarvis_projects": [
@@ -39,99 +49,72 @@
       "name": "Cluster Monitor"
     },
     {
-      "description": [
-        "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      ],
-      "git_url": "/core_java",
-      "name": "Core Java Apps"
+      "description": "A SQL-based Minimum Viable Product (MVP) designed to manage a country club's data, including members, facilities, and booking history. The project supports core database operations such as inserting records, removing members, updating facility costs, analyzing monthly bookings, and identifying popular facilities.",
+      "git_url": "/sql",
+      "name": "RDBMS_SQL"
     },
     {
-      "description": "",
-      "git_url": "/springboot",
-      "name": "Springboot App"
+      "description": "Not Started",
+      "git_url": "/BSA",
+      "name": "BSA Project"
     },
     {
-      "description": "",
+      "description": "Not Started",
       "git_url": "/python_data_anlytics",
       "name": "Python Data Analytics"
-    },
-    {
-      "description": "",
-      "git_url": "/hadoop",
-      "name": "Hadoop"
-    },
-    {
-      "description": "",
-      "git_url": "/spark",
-      "name": "Spark"
-    },
-    {
-      "description": "",
-      "git_url": "/cloud_devops",
-      "name": "Cloud/DevOps"
     }
   ],
   "name": "Aditya Anupam Shukla",
   "others": [
     {
       "bullets": [
-        "Udacity Machine Learning (2019)"
+        "IIBA - ECBA"
       ],
       "title": "Certificates"
-    },
-    {
-      "bullets": [
-        "Winner"
-      ],
-      "title": "Awards"
-    },
-    {
-      "bullets": [
-        "Basketball player",
-        "Competitive gaming",
-        "Volunteer, ABC Food bank: Ut enim ad minim veniam"
-      ],
-      "title": "Activities/Hobbies"
     }
   ],
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
-      "duration": "2020-present",
-      "title": "Software Developer"
+      "description": "As a Business Analyst, I work closely with cross-functional internal teams to gather requirements, analyze system processes, and support the delivery of scalable solutions using technologies such as Linux, Bash scripting, PostgreSQL, Docker, and Git. I translate business needs into clear technical documentation and support system design and implementation to enhance operational efficiency. Operating within an Agile/Scrum environment, I actively participate in sprint planning, daily stand-ups, reviews, and retrospectives to ensure team alignment and continuous process improvement.",
+      "duration": "April 2025-present",
+      "title": "Business Analyst"
     },
     {
-      "company": "XYZ Company",
-      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
-      "duration": "2019",
-      "title": "Tutor"
+      "company": "Ace Management",
+      "description": "Supported the Rogers door-to-door business development segment by modeling operational processes and optimizing sales workflows. Analyzed KPIs to target new sales opportunities and improve customer retention through strategic engagement. Developed and maintained comprehensive documentation for sales records, ensuring accuracy, compliance, and streamlined reporting. Audited sales calls, resolved client escalations, and collaborated with Sales Managers to refine processes and address customer issues effectively. Utilized Salesforce CRM for lead tracking and ensured timely documentation of sales orders. Provided market insights, identified new business opportunities, and supported the execution of sales strategies for Rogers programs.",
+      "duration": "September 2024  March 2025",
+      "title": "Business Analyst"
     }
   ],
   "skills": {
     "competent": [
-      "Donec",
-      "fermentum",
-      "Donec",
-      "fermentum",
-      "Donec"
+      "SQL",
+      "Power BI",
+      "Microsoft Excel",
+      "Microsoft Visio",
+      "Confluence",
+      "Jira",
+      "Git",
+      "Salesforce",
+      "Figma"
     ],
     "familiar": [
-      "Donec",
-      "fermentum",
-      "fermentum",
-      "fermentum",
-      "fermentum"
+      "Python",
+      "Linux",
+      "ServiceNow",
+      "C++",
+      "JAVA"
     ],
     "proficient": [
-      "Java",
-      "Linux/Bash",
-      "RDBMS/SQL",
+      "Requirement elicitation",
+      "Business Process Analysis",
+      "Communication",
+      "Collaboration",
+      "Stakeholder Management",
       "Agile/Scrum",
-      "Git"
+      "Documentation"
     ]
   },
-  "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit."
+  "summary": "Results-driven Business Analyst \u0026 Customer Support Professional with 2.5 years experience in Data management, customer service, and IT support. Skilled in driving revenue growth, optimizing sales operations, and enhancing customer experience. Proven ability to analyze KPIs, manage CRM systems (Salesforce, ServiceNow), and streamline workflows for operational efficiency. Strong leadership experience in training teams, managing escalations, and implementing strategic sales plans. Adept at troubleshooting technical issues, process automation, and market research to support business success. Seeking opportunities to leverage technical expertise, sales acumen, and customer support skills in a dynamic environment."
 }
