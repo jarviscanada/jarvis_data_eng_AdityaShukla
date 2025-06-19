@@ -1,14 +1,14 @@
 # Aditya Anupam Shukla . Jarvis Consulting
 
-Results-driven Business Analyst & Customer Support Professional with 2.5 years experience in Data management, customer service, and IT support. Skilled in driving revenue growth, optimizing sales operations, and enhancing customer experience. Proven ability to analyze KPIs, manage CRM systems (Salesforce, ServiceNow), and streamline workflows for operational efficiency. Strong leadership experience in training teams, managing escalations, and implementing strategic sales plans. Adept at troubleshooting technical issues, process automation, and market research to support business success. Seeking opportunities to leverage technical expertise, sales acumen, and customer support skills in a dynamic environment.
+Results-driven Business Analyst with 2.5 years experience in data management, customer service, and IT support. Skilled in driving revenue growth, optimizing sales operations, and enhancing customer experience. Proven ability to analyze KPIs, manage CRM systems (Salesforce, ServiceNow), and streamline workflows for operational efficiency. Strong leadership experience in training teams, managing escalations, and implementing strategic sales plans. Adept at troubleshooting technical issues, process automation, and market research to support business success. Seeking opportunities to leverage technical expertise, sales acumen, and customer support skills in a dynamic environment.
 
 ## Skills
 
-**Proficient:** Requirement elicitation, Business Process Analysis, Communication, Collaboration, Stakeholder Management, Agile/Scrum, Documentation
+**Proficient:** Requirement Elicitation, Business Process Analysis, Communication &  Collaboration, Stakeholder Management, Agile/Scrum, Data Modelling
 
-**Competent:** SQL, Power BI, Microsoft Excel, Microsoft Visio, Confluence, Jira, Git, Salesforce, Figma
+**Competent:** RDBMS/SQL, Microsoft Excel, Jira, Python, Tableau
 
-**Familiar:** Python, ServiceNow, C++, JAVA, OOP
+**Familiar:** ITIL, Power BI, Salesforce, Git, JAVA
 
 ## Jarvis Projects
 
@@ -21,7 +21,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AdityaShuk
 
 **BSA Project** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AdityaShukla/tree/develop/tree/master/BSA)]: A hands-on project focused on requirements gathering, system analysis, and documentation. I developed a Business Requirements Document (BRD) for a Linux Cluster Monitoring Agent, outlining business needs, technical specifications, and implementation strategy using PostgreSQL, Docker, and Bash scripting. Additionally, I created a System Requirements Document (SRD) for a mobile-first Retail Investor Stock Trading Application, detailing functional and non-functional requirements, user needs, and compliance standards. This project strengthened my skills in stakeholder communication, Agile methodology, SQL, and end-to-end documentation aligned with industry practices.
 
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AdityaShukla/tree/develop/tree/master/python_data_anlytics)]: Not Started
+**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AdityaShukla/tree/develop/tree/master/python_data_anlytics)]: Developed a data analytics pipeline for the London Gift Shop (LGS) using Python, Jupyter Notebook, and PostgreSQL. The project ingested and transformed a historical SQL retail dataset into actionable insights. Implemented RFM segmentation, customer acquisition analysis, and sales trend visualizations. Utilized Pandas, NumPy, and Matplotlib for data wrangling and plotting. PostgreSQL ran inside a Docker container simulating an OLAP environment, and Git was used for version control. The solution supports data-driven decision-making in marketing and operations.
 
 
 ## Highlighted Projects
@@ -36,7 +36,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AdityaShuk
 
 **Business Analyst, Ace Management (September 2024 - March 2025)**: Analyzed the existing business and sales operations workflows to identify inefficiencies and improvement opportunities. I documented these workflows using BPMN diagrams, which helped visualize and isolate key bottlenecks affecting performance and documentation consistency. In collaboration with Managers and Business Analysts, I developed a streamlined Rogers sales program, supported by standardized sales record templates and documentation rules to ensure operational consistency. To enable smooth rollout and training, I created user stories, use cases, and process documentation for Business Developers (BDs), along with a structured post-sales engagement guide focused on improving customer retention through defined follow-up steps. Using Salesforce CRM, I tracked KPIssuch as daily outreach, presentation volume, and conversion ratesto assess performance and recommend targeted coaching modules. I also analyzed pricing trends and competitor data to support real-time pricing requests, giving us a competitive edge. These efforts enabled each BDA to consistently achieve 50 daily interactions, 4 product presentations, and 12 sales, generating weekly team revenue of $4,000$5,000 and monthly revenue between $16,000$20,000, based on team size and product value
 
-**Business Analyst, Mozwebmedia (April 2021 -  September 2022)**: At MozwebMedia, I collaborated with business owners to define goals for expanding their digital presence through website and app development. I analyzed user experience issues using customer journey mapping and feedback to identify pain points in navigation and design. To address scalability, I worked with developers to assess system architecture and data flow, ensuring performance aligned with growth plans. I conducted stakeholder interviews and process walkthroughs to map workflows, then used BPMN diagrams to highlight bottlenecks and inefficiencies. Based on these findings, I created Business Requirement Documents (BRDs), System Requirement Documents (SRDs), user stories, use cases, and user flow diagrams to guide development and ensure alignment across marketing, design, and engineering teams. Operating in an Agile environment, I participated in sprint planning, daily stand-ups, sprint reviews, and retrospectives to maintain visibility and adaptability. I managed scope changes by conducting impact analysis, updating requirements, and coordinating with cross-functional teams to ensure smooth delivery. I also prepared training materials to support onboarding and ensure process clarity for internal teams and clients. This structured approach improved team collaboration, reduced development cycles, and ensured consistent delivery aligned with client expectations.
+**Business Analyst, Mozwebmedia (April 2021 -  September 2022)**: At MozwebMedia, I collaborated with business owners to define goals for expanding their digital presence through website and app development. I analyzed user experience issues using customer journey mapping and feedback to identify pain points in navigation and design. To address scalability, I worked with developers to assess system architecture and data flow, ensuring performance aligned with growth plans. I conducted stakeholder interviews and process walkthroughs to map workflows, then used BPMN diagrams to highlight bottlenecks and inefficiencies. Based on these findings, I created Business Requirement Documents (BRDs), System Requirement Documents (SRDs), user stories, use cases, and user flow diagrams to guide development and ensure alignment across marketing, design, and engineering teams. Operating in an Agile environment, I participated in sprint planning, daily stand-ups, sprint reviews, and retrospectives to maintain visibility and adaptability. I managed scope changes by conducting impact analysis, updating requirements, and coordinating with cross-functional teams to ensure smooth delivery. Also prepared training materials to streamline onboarding and ensure process clarity for both internal teams and clients. This approach improved collaboration, reduced development cycles, and aligned delivery with client expectations.
 
 
 ## Education
@@ -46,7 +46,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AdityaShuk
 
 **George Brown College (2022-2023)**, Postgrad Diploma in Information System Business Analysis, Computer Technology
 - College Process Improvement Research
-- GPA: 3.49/4.0
+- GPA: 3.5/4.0
 
 **Manipal University Jaipur (2017-2021)**, Bachelor of Technology in Information Technology, Electrical and Computer Engineering
 - Nonprofit Business Initiative to Support Locally Produced Natural Product
@@ -56,4 +56,4 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AdityaShuk
 ## Miscellaneous
 - IIBA - ECBA Certified Business Analyst
 - Worked as a Cook Supervisor in the kitchen department at Farm Boy for 2 years while studying at George Brown College, managing operations and training staff in a fast-paced environment.
-- Every weekend, I take some time out to play Age of Empires II, playing this game since I was in 7th grade, which has sharpened my strategic thinking, resource management, and real-time decision-makingskills that continue to influence how I approach problem-solving.
+- Every weekend, I play Age of Empires II  a game Ive enjoyed since 7th grade  which has sharpened my strategic thinking, resource management, and real-time decision-making skills.
