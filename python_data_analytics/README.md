@@ -27,7 +27,7 @@ Using tools like Python, PostgreSQL, and Jupyter Notebook, we built an analytics
 LGS is an online retail website that uses Azure SQL Server as the backend in its API infrastructure to manage and store real-time retail data. For the purpose of this project, the LGS team exported a historical SQL dump of their retail transactions. As part of the ETL (Extract, Transform, Load) process, any personally identifiable customer information was excluded to maintain privacy. To carry out the analysis, the data was loaded into a PostgreSQL database running inside a Docker container. Additionally, a separate Docker container was set up with Jupyter Notebook to facilitate the data wrangling and analysis workflows.
 
 
-![](assets//architecture.png)
+![](assets//Architecture.png)
 
 ---
 
