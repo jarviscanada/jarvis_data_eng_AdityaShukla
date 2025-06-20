@@ -1,6 +1,9 @@
 
 -- Show table schema for the "retail" table
 \d + retail;
+
+
+-- Q1: Show first 10 rows from the table
 SELECT 
   * 
 FROM 
