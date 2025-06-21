@@ -81,7 +81,7 @@ With more time, this project could be extended with:
 
 1. **BI Dashboard** - Interactive dashboards using Streamlit, Power BI, or Tableau
 
-2. ** Automated Pipeline Capability** - To enhance scalability and reduce manual intervention, the entire analytics workflow from data ingestion to RFM segmentation can be automated using modern orchestration tools: Cron Jobs (for lightweight scheduling)
+2. **Automated Pipeline Capability** - To enhance scalability and reduce manual intervention, the entire analytics workflow from data ingestion to RFM segmentation can be automated using modern orchestration tools: Cron Jobs (for lightweight scheduling)
 
 ---
 
