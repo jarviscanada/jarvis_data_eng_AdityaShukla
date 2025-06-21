@@ -27,7 +27,11 @@ Using tools like Python, PostgreSQL, and Jupyter Notebook, we built an analytics
 LGS is an online retail website that uses Azure SQL Server as the backend in its API infrastructure to manage and store real-time retail data. For the purpose of this project, the LGS team exported a historical SQL dump of their retail transactions. As part of the ETL (Extract, Transform, Load) process, any personally identifiable customer information was excluded to maintain privacy. To carry out the analysis, the data was loaded into a PostgreSQL database running inside a Docker container. Additionally, a separate Docker container was set up with Jupyter Notebook to facilitate the data wrangling and analysis workflows.
 
 
+<<<<<<< HEAD
 ![](assets//architecture.png)
+=======
+![](assets//Architecture.jpeg)
+>>>>>>> develop
 
 ---
 
@@ -79,9 +83,17 @@ These insights help LGS:
 With more time, this project could be extended with:
 
 1. **BI Dashboard** - Interactive dashboards using Streamlit, Power BI, or Tableau
+<<<<<<< HEAD
 2. **5. Automated Pipeline Capability** - To enhance scalability and reduce manual intervention, the entire analytics workflow from data ingestion to RFM segmentationcan be automated using modern orchestration tools: Cron Jobs (for lightweight scheduling)
+=======
+
+>>>>>>> develop
 ---
 
 ## Conclusion
 
+<<<<<<< HEAD
 This project lays the foundation for LGS to evolve from basic descriptive analytics toward predictive and prescriptive capabilities. With strategic investments in data pipelines and real-time dashboards, LGS can transform its raw data into a long-term competitive advantage.
+=======
+This project lays the foundation for LGS to evolve from basic descriptive analytics toward predictive and prescriptive capabilities. With strategic investments in data pipelines and real-time dashboards, LGS can transform its raw data into a long-term competitive advantage.
+>>>>>>> develop

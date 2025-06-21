@@ -5,7 +5,11 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_AdityaShuk
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
+<<<<<<< HEAD
 summary: Results-driven Business Analyst with 2.5 years experience in data management, customer service, and IT support. Skilled in driving revenue growth, optimizing sales operations, and enhancing customer experience. Proven ability to analyze KPIs, manage CRM systems (Salesforce, ServiceNow), and streamline workflows for operational efficiency. Strong leadership experience in training teams, managing escalations, and implementing strategic sales plans. Adept at troubleshooting technical issues, process automation, and market research to support business success. Seeking opportunities to leverage technical expertise, sales acumen, and customer support skills in a dynamic environment.
+=======
+summary: Results-driven Business Analyst Professional with 2.5 years experience in data management, customer service, and IT support. Skilled in driving revenue growth, optimizing sales operations, and enhancing customer experience. Proven ability to analyze KPIs, manage CRM systems (Salesforce, ServiceNow), and streamline workflows for operational efficiency. Strong leadership experience in training teams, managing escalations, and implementing strategic sales plans. Adept at troubleshooting technical issues, process automation, and market research to support business success. Seeking opportunities to leverage technical expertise, sales acumen, and customer support skills in a dynamic environment.
+>>>>>>> develop
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
@@ -14,10 +18,16 @@ skills:
   proficient:
     - Requirement Elicitation
     - Business Process Analysis
+<<<<<<< HEAD
     - Communication &  Collaboration
     - Stakeholder Management
     - Agile/Scrum
     - Data Modelling
+=======
+    - Communication & Collaboration
+    - Stakeholder Management
+    - Agile/Scrum
+>>>>>>> develop
 
   # At least 5 skills
   competent:
@@ -80,14 +90,18 @@ professional_experience:
 
   - title: "Business Analyst"
     company: "Ace Management"   
-    duration: "September 2024 - March 2025"   
-    description: "Analyzed the existing business and sales operations workflows to identify inefficiencies and improvement opportunities. I documented these workflows using BPMN diagrams, which helped visualize and isolate key bottlenecks affecting performance and documentation consistency. In collaboration with Managers and Business Analysts, I developed a streamlined Rogers sales program, supported by standardized sales record templates and documentation rules to ensure operational consistency. To enable smooth rollout and training, I created user stories, use cases, and process documentation for Business Developers (BDs), along with a structured post-sales engagement guide focused on improving customer retention through defined follow-up steps. Using Salesforce CRM, I tracked KPIssuch as daily outreach, presentation volume, and conversion ratesto assess performance and recommend targeted coaching modules. I also analyzed pricing trends and competitor data to support real-time pricing requests, giving us a competitive edge. These efforts enabled each BDA to consistently achieve 50 daily interactions, 4 product presentations, and 12 sales, generating weekly team revenue of $4,000$5,000 and monthly revenue between $16,000$20,000, based on team size and product value"
+    duration: "September 2024 - March 2025"
+    description: "Analyzed sales and business operations workflows to identify inefficiencies and opportunities for improvement. Used BPMN diagrams to visualize processes and isolate key bottlenecks. Collaborated with managers and fellow analysts to design a streamlined Rogers sales program, introducing standardized templates and documentation rules for consistency. Developed user stories, use cases, and training documentation to support Business Developers (BDs) during rollout and onboarding. Leveraged Salesforce CRM to monitor KPIs such as daily outreach, presentation volume, and conversion rates, providing insights for coaching and performance enhancement. Conducted pricing and competitor analysis to enable real-time pricing decisions, helping the BDA consistently achieve 50 daily interactions, minimum of 4 product presentations per day, and 12 salesin a week generating $20,000 to $30,000 in monthly revenue."
 
   - title: "Business Analyst"
     company: "Mozwebmedia"
     duration: "April 2021 -  September 2022"
+<<<<<<< HEAD
     description: "At MozwebMedia, I collaborated with business owners to define goals for expanding their digital presence through website and app development. I analyzed user experience issues using customer journey mapping and feedback to identify pain points in navigation and design. To address scalability, I worked with developers to assess system architecture and data flow, ensuring performance aligned with growth plans. I conducted stakeholder interviews and process walkthroughs to map workflows, then used BPMN diagrams to highlight bottlenecks and inefficiencies. Based on these findings, I created Business Requirement Documents (BRDs), System Requirement Documents (SRDs), user stories, use cases, and user flow diagrams to guide development and ensure alignment across marketing, design, and engineering teams. Operating in an Agile environment, I participated in sprint planning, daily stand-ups, sprint reviews, and retrospectives to maintain visibility and adaptability. I managed scope changes by conducting impact analysis, updating requirements, and coordinating with cross-functional teams to ensure smooth delivery. Also prepared training materials to streamline onboarding and ensure process clarity for both internal teams and clients. This approach improved collaboration, reduced development cycles, and aligned delivery with client expectations."
 
+=======
+    description: " I worked closely with business owners to define digital growth goals across websites and mobile apps. Conducted customer journey mapping and feedback analysis to uncover UX pain points. Evaluated system architecture and data flow to ensure scalability in line with growth objectives. Mapped business workflows and identified inefficiencies using BPMN diagrams. Created Business Requirement Documents (BRDs), System Requirement Documents (SRDs), user stories, use cases, and user flow diagrams to support alignment between development, design, and marketing teams. Actively participated in Agile ceremonies to ensure project visibility and adaptability. Managed scope changes through impact analysis and clear communication. Developed onboarding materials and conducted training to enhance clarity and operational readiness. This structured approach led to improved collaboration, reduced development cycles, and consistent delivery aligned with client expectations." 
+>>>>>>> develop
 
 #List of edcuation
 education: 
@@ -124,5 +138,9 @@ others:
     #list of items
     bullets:
       - "IIBA - ECBA Certified Business Analyst"
+<<<<<<< HEAD
       - "Worked as a Cook Supervisor in the kitchen department at Farm Boy for 2 years while studying at George Brown College, managing operations and training staff in a fast-paced environment."
+=======
+      -  "Worked as a Cook Supervisor in the kitchen department at Farm Boy for 2 years while studying at George Brown College, managing operations and training staff in a fast-paced environment."
+>>>>>>> develop
       - "Every weekend, I play Age of Empires II  a game Ive enjoyed since 7th grade  which has sharpened my strategic thinking, resource management, and real-time decision-making skills."
