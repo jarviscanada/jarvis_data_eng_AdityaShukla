@@ -1,6 +1,6 @@
 # Hadoop Project
 
-##Table of Contents
+## Table of Contents
 - [Introduction](#introduction)  
 - [Purpose of this Project](#purpose-of-this-project)  
 - [Learning and Evaluation](#learning-and-evaluation)  
